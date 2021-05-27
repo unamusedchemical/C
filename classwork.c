@@ -315,7 +315,11 @@ NNode *copy_list(NNode *head)
 
 NNode *concat(NNode *first_list_head, NNode *second_list_head)
 {
-   
+    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    // second_list_head_copy e nachaloto na svurzaniq list
+    // first_list_head_copy e kraqt na svurzaniq list
     NNode *second_list_head_copy = copy_list(second_list_head); 
     NNode *first_list_head_copy = copy_list(first_list_head);
     NNode *current = second_list_head_copy;
